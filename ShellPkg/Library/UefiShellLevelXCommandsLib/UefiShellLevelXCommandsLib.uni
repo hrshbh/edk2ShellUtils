@@ -1,0 +1,48 @@
+// /**
+//
+// (C) Copyright 2016 Hewlett Packard Enterprise Development LP<BR>
+// (C) Copyright 2013-2015 Hewlett-Packard Development Company, L.P.<BR>
+// Copyright (c) 2009 - 2017, Intel Corporation. All rights reserved. <BR>
+// SPDX-License-Identifier: BSD-2-Clause-Patent
+// 
+// Modified By: Hrishabh Rajput
+//
+// Module Name:
+//
+// UefiShellLevelXCommandsLib.uni
+//
+// Abstract:
+//
+// String definitions for UEFI Shell 2.0 level X commands
+//
+//
+// **/
+
+/=#
+
+#langdef   en-US "english"
+
+#string STR_GEN_TOO_MANY          #language en-US "%H%s%N: Too many arguments\r\n"
+#string STR_GEN_TOO_FEW           #language en-US "%H%s%N: Too few arguments\r\n"
+#string STR_GEN_PARAM_INV         #language en-US "%H%s%N: Invalid argument - '%H%s%N'\r\n"
+#string STR_GEN_PROBLEM           #language en-US "%H%s%N: Unknown flag - '%H%s%N'\r\n"
+#string STR_GEN_NO_VALUE          #language en-US "%H%s%N: Missing argument for flag - '%H%s%N'\r\n"
+#string STR_GEN_ERR_AD            #language en-US "%H%s%N: Access denied.\r\n"
+#string STR_GEN_ERR_NOT_FOUND     #language en-US "%H%s%N: '%H%s%N' does not exist.\r\n"
+#string STR_GEN_ERR_UK            #language en-US "%H%s%N: Status: %r\r\n"
+#string STR_GEN_PARAM_CON         #language en-US "%H%s%N: Parameters conflict\r\n"
+#string STR_GEN_PARAM_CONFLICT    #language en-US "%H%s%N: Flags conflict with - '%H%s%N' and '%H%s%N'\r\n"
+#string STR_GEN_FILE_OPEN_FAIL    #language en-US "%H%s%N: Cannot open file - '%H%s%N'\r\n"
+#string STR_GEN_FILE_AD           #language en-US "%H%s%N: Access file error - '%H%s%N'\r\n"
+#string STR_GEN_CRLF              #language en-US "\r\n"
+#string STR_GEN_NO_CWD            #language en-US "%H%s%N: Current directory not specified\r\n"
+#string STR_GEN_NO_FILES          #language en-US "%H%s%N: No matching files were found\r\n"
+#string STR_GEN_DIR_NF            #language en-US "%H%s%N: Directory not found - '%H%s%N'\r\n"
+#string STR_GEN_FILE_NF           #language en-US "%H%s%N: File not found - '%H%s%N'\r\n"
+#string STR_GEN_IS_DIR            #language en-US "%H%s%N: '%H%s%N' is a directory\r\n"
+#string STR_GEN_SFO_HEADER        #language en-US "ShellCommand,"%s"\r\n"
+#string STR_NO_SCRIPT             #language en-US "The command '%H%s%N' is not allowed outside of a script\r\n"
+
+#string STR_HEAD_ERROR            #language en-US "%H%s%N: Operation was not successful on '%H%s%N'\r\n"
+
+#string STR_GET_HELP_HEAD         #language en-US ""
